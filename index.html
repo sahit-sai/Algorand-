@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Algorand Wallet Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <h1>🔗 Connect to Algorand</h1>
+      <p>Securely check your wallet balance.</p>
+      
+      <button id="connectBtn">Connect Wallet</button>
+      
+      <div id="walletInfo" class="hidden">
+        <p><strong>Address:</strong> <span id="address">[Connected]</span></p>
+        <button id="showBalanceBtn" class="subtle-button">Show Balance</button>
+        <p id="balanceDisplay" class="hidden"><strong>Balance:</strong> <span id="balance">0</span> Algos</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
